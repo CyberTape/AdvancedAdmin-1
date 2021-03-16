@@ -4,21 +4,20 @@ name: "help",
 code: `$title[Help Menu]
 $thumbnail[$userAvatar[$authorID]]
   $description[**- His Prefix on this Server \`$getServerVar[prefix]\` **
-**- Use \`$getServerVar[prefix]<NameCommand>\` to execute the Command. **
 
-**⚙ Moderation Command List**
+**⚙ Command List**
 
-\`$getServerVar[prefix]kick\` - Kicked Someone from server.
-\`$getServerVar[prefix]ban\` - Banned User server.
-\`$getServerVar[prefix]warn\` - Warning User.
-\`$getServerVar[prefix]checkwarn\` - Check amount of warn one of the users.
-\`$getServerVar[prefix]removewarn\` - Remove warn one of the users.
+\`$getServerVar[prefix]kick\` - Kicks Someone from server.
+\`$getServerVar[prefix]ban\` - Bans User from server.
+\`$getServerVar[prefix]warn\` - Warns User.
+\`$getServerVar[prefix]checkwarn\` - Checks amount of warns one user has.
+\`$getServerVar[prefix]removewarn\` - Removes a warn from one of the users.
 \`$getServerVar[prefix]poll\` - Polling.
-\`$getServerVar[prefix]clear\` - Delete Message.
+\`$getServerVar[prefix]clear\` - Deletes Messages.
 \`$getServerVar[prefix]setprefix\` - Set Custom Prefix.]
 
-$color[RANDOM]
-$footer[Simple Moderation Bot | Subscribe Jastin Ch]
+$color[BLUE]
+$footer[AdvancedAdmin!]
 $addTimestamp`
 
 }
