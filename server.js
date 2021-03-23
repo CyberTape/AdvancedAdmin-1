@@ -7,9 +7,9 @@ prefix: "$getServerVar[prefix]"
 })
  
 bot.status({
-  text: "-help",
-  type: "WATCHING",
-  time: 12
+   text: "$serverCount servers | -help",
+   type: "WATCHING",
+   time: 12
 })
  
 bot.onMessage()
