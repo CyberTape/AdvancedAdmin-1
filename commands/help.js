@@ -14,7 +14,7 @@ $thumbnail[$userAvatar[$authorID]]
 \`$getServerVar[prefix]removewarn\` - Removes a warn from one of the users.
 \`$getServerVar[prefix]poll\` - Polling.
 \`$getServerVar[prefix]clear\` - Deletes Messages.
-\`$getServerVar[prefix]setprefix\` - Set Custom Prefix.]
+\`$getServerVar[prefix]setprefix\` - Set Custom Prefix.
 
 $color[BLUE]
 $footer[AdvancedAdmin!]
