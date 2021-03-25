@@ -16,7 +16,8 @@ $thumbnail[$userAvatar[$authorID]]
 \`$getServerVar[prefix]clear\` - Deletes Messages.
 \`$getServerVar[prefix]setprefix\` - Set Custom Prefix.
 \`$getServerVar[prefix]Mute\` - Mutes a User.
-\`$getServerVar[prefix]Hack\` - Hack your friends! Or your enemies... BTW if you think this is a real hack get your brain checked for smoothness.]
+\`$getServerVar[prefix]Hack\` - Hack your friends! Or your enemies... BTW if you think this is a real hack get your brain checked for smoothness.
+\`$getServerVar[prefix]Rank\` - Displays your current level and your progress until the next level.]
 
 $color[BLUE]
 $footer[AdvancedAdmin!]
