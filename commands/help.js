@@ -11,8 +11,7 @@ $thumbnail[$userAvatar[$authorID]]
 \`$getServerVar[prefix]ban\` - Bans User from server.
 \`$getServerVar[prefix]poll\` - Polling.
 \`$getServerVar[prefix]clear\` - Deletes Messages.
-\`$getServerVar[prefix]setprefix\` - Set Custom Prefix.
-\`$getServerVar[prefix]Mute\` - Mutes a User.
+\`$getServerVar[prefix]setprefix\` - Set Custom Prefix.]
 $color[BLUE]
 $footer[AdvancedAdmin!]
 $addTimestamp`
