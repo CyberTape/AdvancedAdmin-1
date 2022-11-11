@@ -7,11 +7,17 @@ server.listen(3000);
 
 const Aoijs = require("aoi.js")
 var fs = require("fs")
+require('dotenv').config();
 
 const bot = new Aoijs.Bot({
-  token: "OTQzOTIxNTU3Mjk2Nzc5MzU0.GMUHz_.3xMoKqJCrIPz6p7FGOcmibSNM87dd70UFWhTe4",
+  token: process.env.BOT_TOKEN,
   prefix: "$getServerVar[prefix]",
   fetchInvites: true
+})
+
+bot.readyCommand({
+  channel: "",
+  code: `$log[Ready on $userTag[$clientID]]`
 })
 
 bot.status({
