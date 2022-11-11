@@ -13,16 +13,17 @@
   "license": "ISC",
   "dependencies": {
     "aoi.js": "^4.4.4",
-    "async": "^3.2.0",
+    "async": "^3.2.4",
     "bdfd.js": "0.0.4",
     "discord-canvas": "^1.4.1",
     "discord.js": "^12.5.3",
+    "dotenv": "^16.0.3",
     "eval": "^0.1.6",
     "express": "^4.17.1",
     "fs": "0.0.1-security",
     "http": "0.0.1-security",
     "ms": "^2.1.3",
-    "sqlite3": "^5.0.1",
+    "sqlite3": "^5.1.2",
     "websshot": "^1.0.0",
     "ytdl-core": "^4.8.2"
   }
