@@ -9,7 +9,7 @@ const Aoijs = require("aoi.js")
 var fs = require("fs")
 
 const bot = new Aoijs.Bot({
-  token: "OTQzOTIxNTU3Mjk2Nzc5MzU0.GiJ1yA.abKfydsJYVegrtLyYiDphMchrBQlWaV-f9WCEA",
+  token: "OTQzOTIxNTU3Mjk2Nzc5MzU0.GMUHz_.3xMoKqJCrIPz6p7FGOcmibSNM87dd70UFWhTe4",
   prefix: "$getServerVar[prefix]",
   fetchInvites: true
 })
